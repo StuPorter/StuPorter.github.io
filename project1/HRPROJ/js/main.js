@@ -44,6 +44,7 @@ swing.addEventListener('click', function() {
   }
 
 if (randomPitch === pitchSelect.value){ 
+  $('.homervid').html('');
   var video = $('<video />', {
     id: 'video',
     src: 'videos/bigpapi.mp4',
@@ -55,6 +56,7 @@ video.appendTo($('.homervid'));
 }
 
 if (randomPitch != pitchSelect.value){ 
+  $('.homervid').html('');
   var video = $('<video />', {
     id: 'video',
     src: 'videos/trout.mp4',
