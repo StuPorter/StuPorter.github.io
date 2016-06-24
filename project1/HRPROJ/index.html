@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HR D PROJ</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-12">
+    <p id="title">MLB Homerun Derby 2K16</p>
+	</div>
+	</div>
+<div class="row">
+	<div class="col-12A">
+		
+	</div>
+	
+</div>
+
+<div class="row">
+    <div class="col-6">
+      <p>RESULT: <span id="results"></span></p>
+    </div>
+    <div class="col-3">
+      <p>Homeruns  <span id="hr">0</span></p>
+    </div>
+    <div class="col-3">
+      <p>OUTS  <span id="outs-num">0</span> </p>
+    </div>
+  </div>
+
+  <div class="row">
+		<div class="gameInputs">
+			<div>
+      <img src="img/field.jpg" width="1140" height="400">
+      </div>
+	</div>
+	</div>
+
+
+
+<div class="select-player">
+  <legend><span>Choose a batter:</span></legend>
+
+
+      <input type="radio"  class="pickb" id="david" name="hitters" value="David Ortiz"><label for="Batters">  David Ortiz</label>
+
+      <input type="radio" class="pickb" id="anthony" name="hitters" value="Anthony Rizzo"><label for="Batters">  Anthony Rizzo</label>
+
+      <input type="radio" class="pickb" id="bryce"  name="hitters" value="Bryce Harper"><label for="Batters">  Bryce Harper</label>
+
+
+
+</div>
+
+
+<div>
+  
+    <legend class="batter-select"><span>Okay Batter! </span>Select a pitch!</legend>
+
+
+
+<select id="pitches">
+    <option value="fastball">Fastball</option>
+    <option value="curveball">Curveball</option>
+    <option value="changeup">Changeup</option>
+</select>
+
+<button id="myBtn">Swing!</button>
+
+<button class="Replay">Play Again</button>
+
+<div class="batter-info">
+<div class="row">
+     <div class="batter-img">
+       <p>Now Batting</p>
+     </div>
+     <div class="about">
+       <p>Learn More About Me</p>
+     </div>
+     <div class="ticker">
+
+      <iframe src="http://www.sportznetwork.com/ticker/ticker.php" name="ticker" scrolling="no" frameborder="no" height = "275px" width = "180px">
+
+</iframe>
+     </div>
+   </div>
+   </div>
+
+   <div>
+     <p>What Happened?<span id="compare"></span></p>
+   </div>
+
+<div class="homervid">
+ <video id="homervid"> </video>
+ </div>
+</div>
+
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+ <script src="js/main.js"></script>
+</body>
+</html>
