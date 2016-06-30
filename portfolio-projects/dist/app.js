@@ -1,0 +1,1 @@
+var express=require("express"),app=express();app.use(express["static"](__dirname+"/public")),app.get("/",function(e,s,p){s.sendFile(__dirname+"/public/index.html")});var server=app.listen(3e3,function(){console.log("Server started at http://localhost:3000")});

@@ -23,9 +23,26 @@ How to play:
 
 Approaches Taken:
 
-Throughout the project I used a combination of HTML, CSS, Javascript and Jquery to construct the homerun
-derby game. The first step was to take
+1.Throughout the project I used a combination of HTML, CSS, Javascript and Jquery to construct the homerun
+derby game. The first step was to start structurally with a wireframe where I had a style of:
 
+Wireframe:
+
+col-12
+col-12
+col-6 col-3 col-3
+col-12
+col-6 col-6
+
+2. Then I wrote functions that would check if the pitcher would 
+
+3. I used Css for styling all my ID's and classes
+
+4. I usdd Jquery to append objects and manipulate the DOM
+
+Problems:
+
+The only "problem" I really had was not being able to use Jquery animation to make a moving baseball go across the screen and either stay on one side of the screen or go from one side to the other implicating a homerun.
 
 
 GA - WDI
