@@ -6,8 +6,8 @@
 
 $("<audio></audio>").attr({
     'src':'audio/centerfield.mp3',
-    'volume':0.2,
-    'autoplay':'stop'
+    'volume':0.4,
+    'autoplay':'autoplay'
 }).appendTo("body");
 
 var outs  = 0;
